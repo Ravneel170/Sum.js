@@ -9,6 +9,8 @@ function sum(numbers) {
 
 
 let args = (process.argv.slice(2));
-args = args.map(function (number) { return Number(number); });
+args = args.map(function(number) {
+  return Number(number);
+});
 
 console.log(sum(args));
